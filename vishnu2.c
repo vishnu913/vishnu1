@@ -11,6 +11,6 @@ int main()
     if (isLowercaseVowel || isUppercaseVowel)
         printf("%c ", c);
     else
-        printf("consonant", c);
+        printf("Consonant", c);
     return 0;
 }
