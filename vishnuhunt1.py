@@ -1,7 +1,7 @@
 import collections as c
 avail = input()
-n = list(map(int,input().split()))
-acr = c.Counter(n)
+v= list(map(int,input().split()))
+acr = c.Counter(v)
 same = []
 for item,counting in acr.items():
     if counting >1 :
@@ -10,4 +10,4 @@ if same:
     print(*same)
 else:
     print("unique")
-n
+v
